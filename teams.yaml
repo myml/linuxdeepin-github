@@ -21,6 +21,8 @@ teams:
       - Groveer
       - kegechen
       - FeiWang1119
+      - wineee
+      - chenchongbiao
     repositories_permissions:
       triage:
         - developer-center
@@ -80,6 +82,7 @@ teams:
         - deepin-service-manager
         - deepin-upgrade-manager
         - deepin-im
+        - dde-shell
   - name: am-maintainer
     parent_team: Maintainers
     members:
@@ -113,6 +116,7 @@ teams:
       - black-desk
       - FeiWang1119
       - chenchongbiao
+      - ComixHe
     repositories_permissions:
       maintain:
         - open-source-students
@@ -211,6 +215,7 @@ teams:
       - jeffshuai
       - hundundadi
       - myk1343
+      - qingfuliu
     repositories_permissions:
       triage:
         - deepin-camera
@@ -263,6 +268,7 @@ teams:
       - jeffshuai
       - hundundadi
       - myk1343
+      - qingfuliu
     repositories_permissions:
       triage:
         - deepin-draw
@@ -680,11 +686,13 @@ teams:
   - name: deepin-unioncode-member
     parent_team: Projects
     members:
-      - deepin-mozart
-      - toberyan
-      - HJC5305
+      - Lighto-Ku
+      - GongHeng2017
+      - N0rthHXD
+      - LiHua000
+      - tsl115
     repositories_permissions:
-      push:
+      triage:
         - deepin-unioncode
         - deepin-codeporting
   - name: rust-tools
@@ -738,3 +746,11 @@ teams:
         - funnylog
         - pdocr-rpc
         - image-center
+  - name: treeland
+    parent_team: Projects
+    members:
+      - justforlxz
+      - wineee
+    repositories_permissions:
+      push:
+        - treeland
